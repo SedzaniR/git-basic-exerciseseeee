@@ -1,0 +1,107 @@
+    1  git config --global user.name "Sedzani Ragau"
+    2  git config --global user.email "sedzaniragau@gmail.com"
+    3  g
+    4  git config --global color.ui auto
+    5  git init
+    6  
+    7  sudo apt install golang ./install_hugo.sh
+    8  sudo apt install golang
+    9  pwd
+   10  mkdir git-basic-exercises
+   11  cd git-basic-exercises
+   12  ls -a
+   13  git init
+   14  ls -a
+   15  git status
+   16  touch README.md
+   17  ls
+   18  ls -a
+   19  git status
+   20  git log
+   21  git add README.md
+   22  git log
+   23  git reset README.md
+   24  git status
+   25  git log
+   26  git add README.me
+   27  git add . README
+   28  ls -a
+   29  git status
+   30  git log
+   31  git add README.md
+   32  git status
+   33  git reset README.md
+   34  git status
+   35  git add README.md
+   36  git status
+   37  git rm --cached README.md
+   38  git status
+   39  git add README.md
+   40  git commit -m "initial commit"
+   41  git log
+   42  q
+   43  apt istall python3-q-text-as-data
+   44  q
+   45  git log
+   46  nano README.md
+   47  cat README.md
+   48  git stats
+   49  git --help
+   50  git help -a
+   51  cd git-basic-exercises
+   52  cat README.md
+   53  git status
+   54  git commit -m "second commit"
+   55  git log
+   56  git add README.me
+   57  git status
+   58  git add README.md
+   59  git commit -a "second commit"
+   60  git status
+   61  git commit -m "second commit"
+   62  git log
+   63  nano README.md
+   64  cat README.md
+   65  git status
+   66  git add README.md
+   67  git status
+   68  git commit -m "third commit"
+   69  git log
+   70  q
+   71  git checkout 7f1772c6cb5472a20e36f16548d02ac5a77e2934
+   72  cat README.md
+   73  git checkout main
+   74  git checkout master
+   75  cat README.md
+   76  git branch
+   77  git branch milkshake-flavours
+   78  git branch
+   79  git checkout milkshake-flavours
+   80  git branch
+   81  cd milkshake-flavours
+   82  nano milkshakes.md
+   83  git status
+   84  git add milkshakes.md
+   85  git status
+   86  git commit -m "added initial flavours"
+   87  git log
+   88  cd ..
+   89  git log
+   90  cd git-basic-exercises
+   91  git log
+   92  git checkout master
+   93  git branch
+   94  git log
+   95  ls -a
+   96  git log
+   97  git checkout milkshake-flavours
+   98  git log
+   99  git checkout master
+  100  git status
+  101  git log
+  102  git branch
+  103  git branch history
+  104  git checkout history
+  105  git log
+  106  git branch
+  107  history > history.txt
